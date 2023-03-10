@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-height: 0%;
+}
+
+li, a, button {
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header {
+    background: rgb(24, 24, 24);
+    border-bottom: 4px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 8%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+#GM {
+    font-size: 4em;
+    font-family: "Lexend";
+    color: #e2e2e2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#DT {
+    font-size: 1.2em;
+    font-family: "Lexend";
+    color: #e2e2e2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%) translateY(70%);
+}
+
+ .logo {
+    cursor: pointer;
+ }
+
+ .nav_links {
+    list-style: none;
+ }
+
+ .nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+ }
+
+ .nav_links li a {
+    transition: all 0.5s ease 0s;
+ }
+
+
+ .nav_links li a:hover {
+    color: rgb(255, 136, 0)
+ }
+
+ button {
+    margin-left: 20px;
+    padding: 8px 30px;
+    background-color: rgba(255, 136, 0, 1);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+ }
+
+button:hover {
+    background-color: rgba(255, 136, 0, 0.8);
+}
+
+#iframepos {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    transform: translateX(0%) translateY(55%);
+}
